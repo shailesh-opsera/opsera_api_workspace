@@ -1,0 +1,27 @@
+opencollection: 1.0.0
+
+info:
+  name: Opsera Public APIs
+
+request:
+  auth:
+    type: bearer
+    token: "{{token}}"
+  variables:
+    - name: baseUrl_publicApi
+      value: https://api.opsera.io
+    - name: token
+      value: ""
+
+docs:
+  content: |-
+    Complete Opsera Public API collection covering all v1 and v2 endpoints.
+
+    Uses {{baseUrl_publicApi}} as the base URL and {{token}} for Bearer authentication.
+  type: text/markdown
+bundled: false
+extensions:
+  bruno:
+    ignore:
+      - node_modules
+      - .git

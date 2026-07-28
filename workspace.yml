@@ -4,6 +4,8 @@ info:
   type: workspace
 
 collections:
+  - name: "Opsera Public APIs"
+    path: "collections/Opsera Public APIs"
 
 specs:
 
