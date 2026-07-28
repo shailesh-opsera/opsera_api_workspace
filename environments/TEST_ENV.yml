@@ -1,0 +1,8 @@
+name: TEST_ENV
+variables:
+  - name: baseUrl_publicApi
+    value: https://api.opsera-test.opsera.io
+    description: public api test base url
+  - secret: true
+    name: token
+    description: " public api brarer token - test"
